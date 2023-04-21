@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASUS Mobile Phones - Buy Now</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<img src="images/0.jpg" width="100" height="75" alt="Company Logo">
+		<h1>ASUS Mobile Phones</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="buy-now">
+			<h2>Buy ASUS Mobile Phone</h2>
+			<form>
+				<label for="phone-model">Choose a Phone Model:</label>
+				<select id="phone-model" name="phone-model">
+					<option value="rog-5">ASUS ROG Phone 5 ($999.99)</option>
+					<option value="zenfone-8">ASUS ZenFone 8 ($699.99)</option>
+					<option value="zenfone-7">ASUS ZenFone 7 ($599.99)</option>
+				</select>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="address">Address:</label>
+				<textarea id="address" name="address" rows="4" cols="50" required></textarea>
+				<label for="card-number">Card Number:</label>
+				<input type="text" id="card-number" name="card-number" minlength="16" maxlength="16" required>
+				<label for="expiry-date">Expiry Date:</label>
+				<input type="month" id="expiry-date" name="expiry-date" required>
+				<label for="cvv">CVV:</label>
+				<input type="password" id="cvv" name="cvv" minlength="3" maxlength="3" required>
+				<button type="submit" class="btn">Buy Now</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 ASUS Mobile Phones. All rights reserved.</p>
+	</footer>
+</body>
+</html>
